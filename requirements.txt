@@ -1,0 +1,2 @@
+# The extractor and serve.py use only the Python 3 standard library (Python 3.8+).
+# Nothing to install; this file exists so tooling that expects it is satisfied.

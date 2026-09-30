@@ -1,0 +1,26 @@
+{
+  "name": "tod-asset-explorer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Browse the models, textures and animations of your own copy of Total Overdose (2005) in the browser.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "manifest": "node scripts/gen-manifest.mjs",
+    "release": "npm run build && python tools/make_release.py"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/drei": "^9.114.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.10"
+  }
+}

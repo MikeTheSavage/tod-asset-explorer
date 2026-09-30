@@ -1,0 +1,24 @@
+# Extracted game content - never commit it
+assets/
+out/
+*.glb
+*.gltf
+*.dds
+*.naz
+extract_report.json
+
+# Build output and dependencies
+node_modules/
+dist/
+dist-release/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
